@@ -1,0 +1,128 @@
+body
+{
+    font-family: tahoma, sans-serif;
+}
+
+#container /*the whole html form*/
+{
+    width: 675px;
+    height: 460px;
+
+    margin: 0 auto;
+    background-color: #eeeeee;
+}
+
+h1 /*"ENTER the system" message header*/
+{
+    color: #1a3d5f;
+    padding: 10px;
+}
+
+header p /*"it is necessary to login ur account in order to sign in for a course" message*/
+{
+    font-size: 0.8em;
+    color: #a4a4a4;
+    padding-left: 10px;
+
+    margin-bottom: 30px;
+    margin-top: -20px;
+}
+
+#register /*the "ARE U NEW? REG.." form*/
+{
+    height: 200px;
+    width: 300px;
+
+    float: left;
+    padding: 15px;
+}
+
+#login /*"ALREADY A STUD LOGIN" form*/
+{
+    width: 300px;
+    height: 300px;
+
+    float: left;
+
+    padding: 15px;
+    background-color: #234465;
+    color: white;
+}
+
+#new /*"ARE YOU NEW"*/
+{
+    color: #6d6d6d;
+}
+
+#reg /*"REGISTER" after "ARE YOU NEW?"*/
+{
+    color: #16395c;
+}
+
+input /*all white blanks to fill in user info*/
+{
+    height: 40px;
+    width: 286px;
+
+    margin-bottom: 15px;
+    padding-left: 10px;
+}
+
+#register p, #login p /*the two questions "r u new? reg; already a stud? login"*/
+{
+    font-weight: bold;
+    margin-top: -5px;
+}
+
+#register input
+{
+    border-color: #d9d9d9;
+    border-style: solid;
+}
+
+#register input[type="submit"]
+{
+    width: 130px;
+
+    float: right;
+
+    color: #365472;
+    background-color: #eeeeee;
+
+    border-color: #365472;
+    border-style: solid;
+ }
+
+#login input[type="submit"]
+{
+    width: 130px;
+    height: 40px;
+
+    float: right;
+
+    color: white;
+
+    border-color: #ffa700;
+    border-style: solid;
+
+    background-color: #234465;
+}
+
+#login a
+{
+    color: white;
+    font-size: 0.8em;
+    padding-left: 200px;
+}
+
+#login label
+{
+    vertical-align: top;
+    font-size: 0.8em;
+}
+
+#remember
+{
+    width: 20px;
+    height: 20px;
+}

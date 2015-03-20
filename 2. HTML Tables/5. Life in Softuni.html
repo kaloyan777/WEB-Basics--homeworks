@@ -1,0 +1,152 @@
+<!doctype html>
+<html>
+   <head>
+       <title>
+        5. SoftUni Life
+       </title>
+    <style>
+       
+        body
+        {
+            font-family: Tahoma;
+            font-size: 40px;
+        }
+        #bodyMargin
+        {
+            width: 480px;
+        }
+        tbody > tr > td
+        {
+            height: 100px;
+            width: 110px;
+        }
+        tbody
+        {
+            font-size: 0.5em;
+        }
+        thead>tr:nth-child(1)
+        {
+           height: 100px;
+        }
+        table, td, th
+        {
+            border: 1px solid #000000;
+        }
+        th
+        {
+            height: 80px;
+        }
+        #nested-table
+        {
+            margin: 3px;
+            height: 120px;
+        }
+        #nested-table td
+        {
+            font-size: 0.8rem;
+            font-weight: bold;
+            height: 60px;
+        }
+        .top-right
+        {
+            text-align: right;
+            vertical-align: top;
+            padding-top: 5px;
+            padding-right: 5px;
+        }
+        .top-left
+        {
+            text-align: left;
+            vertical-align: top;
+            padding-top: 5px;
+            padding-left: 5px;
+        }
+        .top-center
+        {
+            text-align: center;
+            vertical-align: top;
+            padding-top: 5px;
+        }
+        .bottom-right
+        {
+            text-align: right;
+            vertical-align: bottom;
+            padding-right: 5px;
+            padding-bottom: 5px;
+        }
+        .bottom-left
+        {
+            text-align: left;
+            vertical-align: bottom;
+            padding-left: 5px;
+            padding-bottom: 5px;
+        }
+        .bottom-center
+        {
+            vertical-align: bottom;
+            text-align: center;
+            padding-bottom: 5px;
+        }
+        .middle-center
+        {
+            vertical-align: middle;
+            text-align: center;
+        }
+        .middle-right
+        {
+            vertical-align: middle;
+            text-align: right;
+            padding-right: 5px;
+            font-size: 25px;
+            font-weight: bold;
+        }
+        .middle-left
+        {
+            vertical-align: middle;
+            text-align: left;
+            padding-left: 5px;
+        }
+        
+       </style>
+    </head>
+
+<body id="bodyMargin">
+    <table>
+        <thead>
+            <tr>
+                <th colspan="4">SoftUni LIFE</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="2" class="top-left">Google</td>
+                <td colspan="2" class="top-right">GitHub</td>
+            </tr>
+            <tr>
+                <td class="top-center">FB</td>
+                <td class="middle-left">GMail</td>
+                <td class="bottom-center">YouTube</td>
+                <td class="middle-left">2048</td>
+            </tr>
+            <tr>
+                <td class="bottom-right">Food</td>
+                <td colspan="2" class="bottom-left">Game</td>
+                <td>
+                    <table id="nested-table">
+                            <tr>
+                                <td class="middle-center">Social Life</td>
+                            </tr>
+                            <tr>
+                                <td class="middle-center">Sleep</td>
+                            </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" class="middle-right">Beer ></td>
+                <td class="middle-left">WC</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

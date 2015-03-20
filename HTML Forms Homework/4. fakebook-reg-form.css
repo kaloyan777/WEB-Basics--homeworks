@@ -1,0 +1,146 @@
+body
+{
+    font-family: tahoma, sans-serif;
+}
+
+#container
+{
+    width: 900px;
+    height: 650px;
+
+    margin: 0 auto;
+
+    background-color: #3b5997;
+    color: white;
+}
+
+h1, h3, p /*the three headings on top of the two forms*/
+{
+    text-align: center;
+}
+
+h1 /*fakebook*/
+{
+    font-size: 8em;
+    margin: 0;
+}
+
+h1 span /*the special symbol R*/
+{
+    font-size: 0.15em;
+}
+
+h3 /*registration*/
+{
+    font-size: 2em;
+    margin: 10px;
+}
+
+header p /*message - it is safe and...*/
+{
+    font-size: 1.2em;
+    font-weight: bold;
+
+    margin-bottom: 40px;
+}
+
+#left-div /*the whole left-sided form*/
+{
+    float: left;
+    width: 350px;
+    margin-left: 17px;
+}
+
+#right-div /*...right-sided form*/
+{
+    float: right;
+    width: 500px;
+    margin-right: 17px;
+}
+
+.left-div-inputs /*all the input blanks for entering data in the left form*/
+{
+    width: 140px;
+    border: none;
+    margin-bottom: 10px;
+    padding: 3px;
+}
+
+option /*options in select drop menu*/
+{
+    color: black;
+}
+
+input[type="color"]
+{
+    height: 27px;
+    vertical-align: bottom;
+    border-radius: 5px;
+    margin-bottom:
+}
+.small
+{
+    width: 72px;
+    height: 25px;
+
+    border-radius: 5px;
+    border: none;
+
+    margin-bottom: 10px;
+    padding: 3px;
+}
+
+textarea /*"give us more information!!!"*/
+{
+    width: 455px;
+    height: 70px;
+
+    border-radius: 5px;
+    resize: none;
+}
+
+fieldset /*contans eash of the left and right forms*/
+{
+    border-radius: 8px;
+    margin-bottom: 15px;
+    padding-top: 10px;
+}
+
+legend /*"important info required", "non-important info"*/
+{
+    text-align: center;
+    font-weight: bold;
+}
+
+#left-div fieldset /*setting height value to only te left field set*/
+{
+    height: 258px;
+}
+
+input[type="reset"] /*the reset "clear form" button*/
+{
+    width: 348px;
+    height: 50px;
+
+    color: #3b5997;
+    font-size: 1.2em;
+
+    border-radius: 8px;
+    border: none;
+
+    margin-left: 1px;
+}
+
+input[type="submit"] /**the submit button*/
+{
+    width: 498px;
+    height: 50px;
+
+    color: #3b5997;
+    font-size: 1.8em;
+
+    border-radius: 8px;
+    border: none;
+
+    margin-left: 2px;
+}

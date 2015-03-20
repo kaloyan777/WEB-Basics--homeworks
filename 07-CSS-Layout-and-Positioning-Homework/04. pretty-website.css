@@ -1,0 +1,200 @@
+* /*everything including the background*/
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body
+{
+    background-color: #101415; /*black-like color*/
+}
+
+#container /*the inner site page field containing all the imgs and texts*/
+{
+    width: 900px;
+
+    margin: 0 auto;
+    background-color: white;
+}
+
+header /*the image on top of all*/
+{
+    height: 270px;
+    background-image: url("img/headerBackground.jpg");
+}
+
+header #site-title /*in thetwilight of the one's life*/
+{
+    position: relative;
+    top: 200px;
+    right: 20px;
+
+    font-size: 2em;
+    font-weight: bold;
+
+    background: none;
+    color: white;
+    text-align: right;
+}
+
+footer
+{
+    clear: both; /*No floating elements allowed on either the left or the right side*/
+    height: 50px;
+    display: block; /*display as block of elements*/
+
+    padding-top: 30px;
+    padding-left: 100px;
+
+    background-color: #9FD63D;
+    color: black;
+}
+
+nav /*menu line with buttons HOME, ABOUT, BLOG...*/
+{
+    width: 100%;
+    height: 50px;
+
+    background-color: #ECECEC;
+}
+
+nav ul
+{
+    border-bottom: 1px solid white;
+}
+
+nav ul li
+{
+    width: 130px;
+    height: 46px;
+
+    list-style: none;
+    display: inline-flex; /*Displays an element as an inline-level flex container*/
+    border-right: 1px solid white;
+}
+
+nav ul li a
+{
+    width: 100%;
+
+    text-decoration: none;
+    text-align: center;
+
+    padding-top: 13px;
+    font-size: 1.3em;
+    color: #626161;
+}
+
+nav ul li a:hover
+{
+    background-color: #BDBDBD;
+    border-right: 4px solid #ECECEC;
+    color: white;
+}
+
+
+.main-content
+{
+    width: 640px;
+    float: left;
+}
+
+#home /*WELCOME TO HOME PAGE*/
+{
+    height: 180px;
+}
+
+#products /*OUR FREE PRODUCTS*/
+{
+    height: 450px;
+}
+
+#home, #products
+{
+    margin: 15px;
+    padding: 20px;
+
+    border: 2px solid #EEEEEE;
+    border-radius: 15px;
+}
+
+.product_text /*our free products text messages*/
+{
+    clear: both;
+}
+
+.product_text img
+{
+    float: left;
+
+    margin-bottom: 10px;
+    margin-right: 15px;
+}
+
+.sideBar
+{
+    width: 250px;
+    float: right;
+}
+
+#news, #messages /*sidebar two boxes news messages*/
+{
+    margin: 15px;
+    padding: 20px;
+
+    border: 2px solid #EEEEEE;
+    border-radius: 15px;
+}
+
+#news
+{
+    background-color: #EEEEEE;
+}
+
+.news-section /*the inside section of NEWS sideBar box*/
+{
+    margin-bottom: 15px;
+}
+
+#messages p
+{
+    margin-bottom: 20px;
+}
+
+h1 /*all the main headings in the page*/
+{
+    color: #84BE19;
+    margin-bottom: 25px;
+}
+
+.main-content h4 /*our free products - sub headings*/
+{
+    margin-bottom: 10px;
+}
+
+p
+{
+    font-size: 0.9em;
+}
+
+h4
+{
+    font-size: 0.9em;
+}
+
+a
+{
+    color: #84BE19;;
+}
+
+#products a
+{
+    text-decoration: none;
+    color: black;
+}
+
+footer a
+{
+    color: black;
+}

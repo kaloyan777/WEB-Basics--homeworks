@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            2.Paragraphs and Images of Text
+        </title>
+        
+        <style>
+            
+            body {
+                border: solid black 12px;
+                border-radius: 10px;
+                margin: 20px;
+            }
+            
+            .container {
+                border-radius: 10px;
+                margin: 20px;
+                background-color: grey;
+                padding: 20px;
+            }
+            
+            img {
+            /*This will style every img object that do not have a specific id or class label like cats, snowman and cows do.*/
+                border: solid green;
+                border-radius: 20px;
+                height: 320px;
+                width: 320px;
+            }
+            
+            #cats, #snowman, #cows {
+                height: 320px;
+                width: 400px;
+            }
+        
+        </style>
+    </head>
+    
+    <!--Create an HTML page holding a few headings, each with a few paragraphs of text. Insert a few images. Play with the old formatting tags <b>, <i>, <u>, <strong>, <em>, <sup>, <sub>, <pre>, <br /> etc. Ensure you have <doctype>, <html>, <head>, <title> and <body>.-->
+    
+    <body>
+        <div class="container">
+            <h1>This is using &lt;h1&gt;</h1>
+            <p><img src="img/batman.jpg" alt="There is no more batan!"></p>
+            <p><b>This is some text with &lt;b&gt; tag used.</b></p>
+            <p><i>This is some text with &lt;i&gt; tag used.</i></p>
+
+            <hr> <!--<hr> puts a line accross the page-->
+
+            <h2>This is using &lt;h2&gt;</h2>
+            <p><img id="cats" src="img/cats.jpg" alt="All the cats are gone!"></p>
+            <p><u>This is some text with &lt;u&gt; tag used.</u></p>
+            <p><strong>This is some text with &lt;strong&gt; tag used.</strong></p>
+
+            <hr>
+
+            <h3>This is using &lt;h3&gt;</h3>
+            <p><img src="img/chicken.jpg" alt="All the chickes are dead!"></p>
+            <p>The &lt;strong&gt; tag is similar to the &lt;b&gt; tag.</p>
+            <p>Text without &lt;sub&gt; tag, to demonstrate <br> the effect of the tag.<sub>This is some text using &lt;sub&gt; tag on it.</sub></p>
+
+            <hr>
+
+            <h4>This is using &lt;h4&gt;</h4>
+            <p><img id="cows" src="img/cows.jpg" alt="There is no more moo-moo!"></p>
+            <p><em>This is some text with &lt;em&gt; tag used.</em></p>
+            <p>Text without &lt;sup&gt; tag, to demonstrate <br> the effect of the tag.<sup>This is text with the &lt;sup&gt; tag used on it.</sup></p>
+
+            <hr>
+
+            <h5>This is using &lt;h5&gt;</h5>
+            <p><img src="img/frog.jpg" alt="The stork, ate the frog!"></p>
+            <p>&lt;br&gt; tag is used <br>
+            to break a line and continue typing on <br> a new one.</p>
+            <p>&lt;pre&gt; is placed outide the &lt;p&gt; tag.</p>
+            <pre>
+                    Text in a &lt;pre&gt; element
+                    is displayed in a fixed-width
+                    font, and it preserves
+                    both      spaces and
+                    line breaks.
+            </pre>
+            
+            <hr>
+
+            <h6>This is using &lt;h6&gt;</h6>
+            <p><img id="snowman" src="img/snowman.jpg" alt="The snowman melted!"></p>
+        </div>
+    </body>
+    
+</html>

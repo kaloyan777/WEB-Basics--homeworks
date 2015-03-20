@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+    <head>
+        <title>
+            2. Exam Results
+        </title>
+        
+        <style>
+            table
+            {
+                width: 420px;
+                margin: 10px auto;
+                font-family: tahoma;
+            }
+            table, tbody, thead, tfoot, tr, td, th
+            {
+                border: 1px solid black;
+            }
+            thead tr:first-child th
+            {
+                font-size: 24px;
+                text-align: center;
+            }
+            thead tr:last-child th
+            {
+                font-size: 18px;
+                text-align: center;
+            }
+            tr, td, th
+            {
+                height: 25px;
+                text-align: left;
+                padding-left: 7px;
+            }
+            #heading
+            {
+                height: 35px;
+            }
+            tfoot td
+            {
+                padding-right: 7px;
+                height: 30px;
+                text-align: right;
+            }
+        </style>
+    </head>
+    
+    <body>
+       <table>
+        <thead>
+                <tr id="heading"> <!--thead's first child-->
+                    <th colspan="4">Web fundamentals exam results</th>
+                </tr>
+
+                <tr> <!--thead's second and last child-->
+                    <th>&#8470;</th>
+                    <th>First name</th>
+                    <th>Last name</th>
+                    <th>Score</th>
+                </tr>
+        </thead>
+
+            <tbody>
+                <tr>
+                    <td>01</td>
+                    <td>Gosho</td>
+                    <td>Goshev</td>
+                    <td>500</td>
+                </tr>
+                <tr>
+                    <td>02</td>
+                    <td>Tosho</td>
+                    <td>Toshev</td>
+                    <td>500</td>
+                </tr>
+                <tr>
+                    <td>03</td>
+                    <td>Pesho</td>
+                    <td>Pesho</td>
+                    <td>500</td>
+                </tr>
+                <tr>
+                    <td>04</td>
+                    <td>Gencho</td>
+                    <td>Genchev</td>
+                    <td>500</td>
+                </tr>
+                <tr>
+                    <td>05</td>
+                    <td>Draga</td>
+                    <td>Draganova</td>
+                    <td>500</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td colspan="4">Average score from 05 participants: 500</td>
+                </tr>
+            </tfoot>
+        </table>
+                
+    </body>
+    
+</html>

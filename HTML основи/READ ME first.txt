@@ -1,0 +1,1 @@
+If you can't see the images, change the dir link syntax to see the img or open it with your WebIDE instead of Open With - Chrome...etc.

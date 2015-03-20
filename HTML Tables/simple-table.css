@@ -1,0 +1,15 @@
+    table
+    {
+        border: 1px solid #808080;
+        width: 450px;
+        font-family: tahoma;
+    }
+    th
+    {
+        font-size: 30px;
+        text-align: left;
+    }
+    #margin
+    {
+        margin: 10px auto;
+    }

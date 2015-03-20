@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            3. Nested tables
+        </title>
+        <style>
+            .container
+            { 
+            	font-family: Tahoma;   
+            	font-size: 55px;
+            	height: 225px;
+            	width: 480px;
+            	margin: 10px auto;
+            }
+            table, td
+            {
+                border: 1px solid #000000;
+                text-align: center;
+                margin: 10px;
+            }            
+            td:first-child
+            {
+                height: 85px;
+                width: 170px;
+                padding: 10px 10px 0 10px;
+            }
+            .innertable td
+            {
+                padding: 0 10px;
+	            text-align: left;
+            } 
+        </style>
+    </head>
+    <body>
+       
+       <!-- In one table(container) within its tbody, there is one tr(mainTrow) with two td(first, second),
+            the second td has a table inside itself(innerTable), with two tr, each holding one td. -->
+       
+        <table class="container">
+            <tbody>
+               <tr id="mainTrow">
+                   <td id="first">
+                       <a href="http://www.softuni.bg"><img src='img/su.jpg' alt="SoftUni logo is missing" title="SoftUni Logo"></a>   
+                   </td>  
+                   
+                   <td id="second">
+                       <table class="innerTable">
+                          <tbody>
+                              <tr>
+                                  <td>Software</td>
+                              </tr>
+                              <tr>
+                                  <td>University</td>
+                              </tr>
+                          </tbody>
+                       </table>
+                   </td>
+               </tr> 
+            </tbody>
+        </table>
+        
+    </body>
+</html>

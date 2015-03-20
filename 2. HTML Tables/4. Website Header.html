@@ -1,0 +1,202 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>4. Website Header</title>
+    <style>
+    
+         body
+        {
+            font-family: 'PT Sans', Tahoma, sans-serif;
+            font-size: 14px;
+            font-weight: bold;
+            text-align: center;
+            color: #fff; /*makes the letters white, so will not be seen without background color != white*/
+
+            /*places the table in the top left corner of the browser screen*/
+            padding: 0;
+            margin: 0;
+        }
+        table, th, td
+        {
+            border: 1px solid black;
+            border-spacing: 0;
+            height: 50px;
+            background: #234465;
+        }
+        table
+        {
+            padding-top: 10px;
+            padding-left: 30px;
+            width: 1231px;
+            margin: auto;
+        }
+        #logo
+        {
+            width: 250px;
+            font-size: 11px;
+        }
+        #dropMenu
+        {
+            background:#234465;
+        }
+
+        ul
+        {
+          text-align: left;
+          display: inline;
+          margin: 0;
+          padding: 15px 4px 17px 0;
+          list-style: none;
+          -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+          -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+        }
+
+        ul li
+        {
+          font: bold 12px/18px sans-serif;
+          display: inline-block;
+          margin-right: -4px;
+          position: relative;
+          padding: 15px 20px;
+          background: #fff;
+          cursor: pointer;
+          -webkit-transition: all 0.2s;
+          -moz-transition: all 0.2s;
+          -ms-transition: all 0.2s;
+          -o-transition: all 0.2s;
+          transition: all 0.2s;
+        }
+
+        ul li:hover
+        {
+          /*background: #555;
+          color: #fff;*/
+        }
+
+        ul li ul
+        {
+          padding: 0;
+          position: absolute;
+          top: 48px;
+          left: 0;
+          width: 150px;
+          -webkit-box-shadow: none;
+          -moz-box-shadow: none;
+          box-shadow: none;
+          display: none;
+          opacity: 0;
+          visibility: hidden;
+          -webkit-transiton: opacity 0.2s;
+          -moz-transition: opacity 0.2s;
+          -ms-transition: opacity 0.2s;
+          -o-transition: opacity 0.2s;
+          -transition: opacity 0.2s;
+        }
+
+        ul li ul li
+        {
+          /*background: #555;*/
+          display: block;
+          /*color: #fff;*/
+          text-shadow: 0 -1px 0 #000;
+        }
+
+        ul li ul li:hover
+        {
+            background: #234465;
+        }
+
+        ul li:hover ul
+        {
+          display:list-item;
+          opacity: 1;
+          visibility: visible;
+        }
+            a{color: #fff;}
+
+    
+    </style>
+</head>
+<body>
+    <table>
+        <div id="1st_Part">
+            <tr>
+                <td rowspan="2" id="logo"> <!--LOGO-->
+                    <a href="http://softuni.bg"><img src="/img/logo.png" alt="softuniLogo"></a>
+                </td>
+                <td id="notificaton"> <!--Bell-->
+                    <img src="/img/notificationsIcon.png" alt="notification">
+                </td>
+                <td> <!--User-->
+                    <ul>
+                        <li id="dropMenu">USER
+                            <ul>
+                                <li>Web Design</li>
+                                <li>Web Development</li>
+                                <li>Illustrations</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </td>
+                <td id="search"> <!--Search-->
+                        <div>
+                            <form action="https://softuni.bg/Search/Results" method="get" target="_blank">
+                                <input type="text" name="query" placeholder="Search Here">
+                                <button onclick="javascript: submitForm()"><img src="/img/search.png" alt="search blank"></button>
+                            </form>
+                        </div>
+                </td>
+            </tr>
+        </div>
+                                                <!--end of 1st_Div-->
+        <div id="2nd_Part">
+            <tr>
+                <td>
+                    <ul>
+                        <li id="dropMenu">News
+                            <ul>
+                                <li>Today</li>
+                                <li>This Week</li>
+                                <li>This Month</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li id="dropMenu">About The University
+                            <ul>
+                                <li>History</li>
+                                <li>Team</li>
+                                <li>Contact Us</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li id="dropMenu">Training Courses
+                            <ul>
+                                <li>JAVA</li>
+                                <li>CSharp</li>
+                                <li>WEB Fundamentals</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </td>
+                <td>
+                    <a href="https://softuni.bg/university/companies/partners">Partners</a>
+                </td>
+                <td>
+                    <a href="https://softuni.bg/forum">Forum</a>
+                </td>
+                <td>
+                    <a href="https://softuni.bg/contacts"></a>
+                </td>
+            </tr>
+        </div>
+    </table>
+</body>
+</html>

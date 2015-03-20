@@ -1,0 +1,105 @@
+*
+{
+    padding: 0;
+    margin: 0;
+
+    font-family: sans-serif;
+    font-size: 10pt;
+
+    color: white;
+}
+
+#wrapper /*the blue background*/
+{
+    background-color: #234465;
+    height: 250px;
+}
+
+.block /*blocks of information - all the buttons and menu boxes...*/
+{
+    width: 260px;
+
+    display: inline-block;
+    vertical-align: top;
+
+    margin-top: 15px; /*positions it on the top*/
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#buttons /*apply now, fast track courses*/
+{
+    width: 180px;
+    margin-left: 50px;
+}
+
+#about /*ABOUT THE UNI section*/
+{
+    width: 180px;
+}
+
+#friends /*OUR FRINEDS*/
+{
+    width: 130px;
+}
+
+#system /*SOFTUNI LEARNING SYSTEM*/
+{
+    width: 260px;
+}
+
+#social-media /*facebook, google, twitter buttons box to position it*/
+{
+    margin-top: 20px;
+}
+
+#social-media img /*the imgs of the buttons*/
+{
+    margin-right: 5px;
+}
+
+#facebook /*facebook box on the right*/
+{
+    margin-left: 30px;
+}
+
+.button /*the class for the two buttons apply, fast track*/
+{
+    width: 170px;
+
+    display: inline-block;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    text-align: center;
+
+    border: 2px solid #FF932F;
+    margin-bottom: 15px;
+}
+
+.button:hover /*when the pointer hovers over the element: */
+{
+    background-color: #FF932F;
+}
+
+h3 /*the headings of the 3 menus, only the text of the titles - about, our friends, softuni system*/
+{
+    color: #FF932F;
+    margin-bottom: 5px;
+}
+
+a /*all that has a href*/
+{
+    text-decoration: none;
+}
+
+a:hover p /*when hover over a p of the href*/
+{
+    color: #FF932F;
+}
+
+p
+{
+    padding: 2px;
+}

@@ -1,0 +1,202 @@
+body
+{
+    font-family: tahoma;
+}
+
+#container /*main div*/
+{
+    margin: 0 auto;
+
+    width: 680px;
+    height: 250px;
+
+    border-top: 8px dotted #ffff00;
+    border-bottom: 8px double #0000ff;
+    border-left: 8px dashed #ff0000;
+    border-right: 14px solid #008000;
+
+    box-shadow: 25px 25px 12px gray;
+}
+
+#header_1 /*text shadows are cool*/
+{
+    display: block;
+
+    font-size: 48px;
+
+    margin-top: 15px;
+    margin-left: 50px;
+
+    text-transform: uppercase;
+    text-shadow: 10px 10px 15px gray;
+}
+
+#header_2 /*these text fields look like buttons, right*/
+{
+    display: block;
+
+    font-size: 24px;
+    text-shadow: 10px 15px 20px gray;
+
+    margin-top: 5px;
+    margin-left: 65px;
+}
+
+
+
+/*...1,2,3,4 = the four different collored round borders...*/
+#div_1
+{
+    width: 600px;
+    height: 110px;
+
+    margin: 0 auto;
+    margin-top: 35px;
+
+    border: 3px solid #0000ff;
+    border-radius: 60px;
+}
+#div_2
+{
+    width: 594px;
+    height: 104px;
+
+    margin: 0 auto;
+
+    border: 3px solid #008000;
+    border-radius: 60px;
+}
+#div_3
+{
+    width: 588px;
+    height: 98px;
+
+    margin: 0 auto;
+
+    border: 3px solid #ffff00;
+    border-radius: 60px;
+}
+#div_4
+{
+    width: 582px;
+    height: 92px;
+
+    margin: 0 auto;
+
+    border: 3px solid #ff0000;
+    border-radius: 60px;
+}
+
+
+
+/*...the two button like fields...*/
+#WeAre_left
+{
+    float: left;
+
+    margin-left: 50px;
+    margin-top: 16px;
+
+    text-align: center;
+
+    width: 220px;
+
+    background-color: #d8921a;
+
+    border: 3px outset #ffa600;
+}
+#WeAre_right
+{
+    margin-left: 295px;
+    margin-top: 16px;
+
+    text-align: center;
+
+    width: 220px;
+
+    background-color: #d8921a;
+
+    border: 3px outset #ffa600;
+}
+
+
+
+/*...comics balloons...*/
+#balloon_1
+{
+    width: 30px;
+    height: 30px;
+
+    margin-left: 492px;
+    margin-top: -50px;
+
+    border-radius: 30px;
+
+    background-color: rgba(160, 160, 160, 0.8);
+}
+#border_balloon_1
+{
+    width: 17px;
+    height: 17px;
+
+    margin-top: -27px;
+    margin-left: 496px;
+
+    border-radius: 17px;
+    border: 3px dashed #ffffff;
+}
+#balloon_2
+{
+    width: 40px;
+    height: 40px;
+
+    margin-left: 525px;
+    margin-top: -63px;
+
+    border-radius: 40px;
+
+    background-color: rgba(160, 160, 160, 0.8);
+}
+#border_balloon_2
+{
+    width: 25px;
+    height: 25px;
+
+    margin-top: -36px;
+    margin-left: 530px;
+
+    border-radius: 25px;
+    border: 3px dashed #ffffff;
+}
+#balloon_3
+{
+    width: 130px;
+    height: 80px;
+
+    margin-left: 580px;
+    margin-top: -105px;
+
+    border-radius: 50px;
+
+    background-color: rgba(160, 160, 160, 0.8);
+}
+#border_balloon_3
+{
+    width: 110px;
+    height: 57px;
+
+    margin-top: -76px;
+    margin-left: 587px;
+
+    border-radius: 50px;
+    border: 3px dashed #ffffff;
+
+    color: #ffffff;
+
+    text-align: center;
+
+    font-weight: bold;
+    font-size: 1.3em;
+
+    padding-top: 8px;
+}

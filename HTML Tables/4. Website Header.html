@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>4. Website Header</title>
+    <link rel="stylesheet" href="website-header.css">
+</head>
+<body>
+    <table>
+        <div id="1st_Part">
+            <tr>
+                <td rowspan="2" id="logo"> <!--LOGO-->
+                    <a href="http://softuni.bg"><img src="/img/logo.png" alt="softuniLogo"></a>
+                </td>
+                <td id="notificaton"> <!--Bell-->
+                    <img src="/img/notificationsIcon.png" alt="notification">
+                </td>
+                <td> <!--User-->
+                    <ul>
+                        <li id="dropMenu">USER
+                            <ul>
+                                <li>Web Design</li>
+                                <li>Web Development</li>
+                                <li>Illustrations</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </td>
+                <td id="search"> <!--Search-->
+                        <div>
+                            <form action="https://softuni.bg/Search/Results" method="get" target="_blank">
+                                <input type="text" name="query" placeholder="Search Here">
+                                <button onclick="javascript: submitForm()"><img src="/img/search.png" alt="search blank"></button>
+                            </form>
+                        </div>
+                </td>
+            </tr>
+        </div>
+                                                <!--end of 1st_Div-->
+        <div id="2nd_Part">
+            <tr>
+                <td>
+                    <ul>
+                        <li id="dropMenu">News
+                            <ul>
+                                <li>Today</li>
+                                <li>This Week</li>
+                                <li>This Month</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li id="dropMenu">About The University
+                            <ul>
+                                <li>History</li>
+                                <li>Team</li>
+                                <li>Contact Us</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li id="dropMenu">Training Courses
+                            <ul>
+                                <li>JAVA</li>
+                                <li>CSharp</li>
+                                <li>WEB Fundamentals</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </td>
+                <td>
+                    <a href="https://softuni.bg/university/companies/partners">Partners</a>
+                </td>
+                <td>
+                    <a href="https://softuni.bg/forum">Forum</a>
+                </td>
+                <td>
+                    <a href="https://softuni.bg/contacts"></a>
+                </td>
+            </tr>
+        </div>
+    </table>
+</body>
+</html>
